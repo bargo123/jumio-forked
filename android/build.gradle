@@ -58,9 +58,7 @@ dependencies {
     // Jumio dependencies
     implementation "com.jumio.android:core:${SDK_VERSION}"
     implementation "com.jumio.android:linefinder:${SDK_VERSION}"
-    implementation("com.jumio.android:docfinder:${SDK_VERSION}") {
-        exclude group: 'org.tensorflow', module: 'tensorflow-lite-api'
-    }
+    implementation "com.jumio.android:docfinder:${SDK_VERSION}"
     implementation "com.jumio.android:mrz:${SDK_VERSION}"
     implementation "com.jumio.android:nfc:${SDK_VERSION}"
     implementation "com.jumio.android:barcode:${SDK_VERSION}"
